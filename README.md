@@ -60,7 +60,7 @@ sbt package
 ### 4. Docker Setup
 Make sure you have Docker and Docker Compose installed. Then, run the following command to build and start all the containers:
 ```
-docker-compose up --build
+docker-compose up -d
 ```
 This will start the following services:
 
