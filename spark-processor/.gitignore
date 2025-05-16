@@ -1,0 +1,22 @@
+# Maven
+target/
+*.log
+
+.bsp/
+.bloop/
+
+# SBT
+target/
+project/target/
+project/project/
+project/.bloop/
+
+# VSCode
+metals.sbt
+
+# IntelliJ
+.idea/
+*.iml
+
+# Environment
+.env

@@ -1,0 +1,23 @@
+# Root .gitignore
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings
+.idea/
+.vscode/
+.metals/
+*.iml
+
+# Ignore build artifacts
+target/
+build/
+out/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment and config
+.env
+*.env
