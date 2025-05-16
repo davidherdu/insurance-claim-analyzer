@@ -57,7 +57,7 @@ mvn clean package
 cd spark-processor
 sbt package
 ```
-### 3. Docker Setup
+### 4. Docker Setup
 Make sure you have Docker and Docker Compose installed. Then, run the following command to build and start all the containers:
 ```
 docker-compose up --build
@@ -71,19 +71,19 @@ This will start the following services:
 - **Kafka** for streaming (on port `9092`)
 
 - **Frontend** (React) on port `3000`
-### 4. Visit the Application
+### 5. Visit the Application
 Once the containers are up, navigate to the following URLs:
 
-- **Frontend**: http://localhost:3000 (Submit and view claims)
+- **Frontend**: http://localhost (Submit and view claims)
 
 - **Claim API**: http://localhost:8080 (Access claims via REST API)
 
-### 5. View and Submit Claims
+### 6. View and Submit Claims
 - **Submit a new claim**: Use the form on the frontend to create a new claim.
 
 - **View all claims**: The list of claims will appear below the form on the same page.
 
-### 6. Monitor Spark Processing (Optional)
+### 7. Monitor Spark Processing (Optional)
 To view the processing of suspicious claims by Apache Spark, look at the logs of the `spark-processor` container or adapt the Spark job to output results to a different storage or system.
 ## Services
 ### Claim API (Spring Boot)
